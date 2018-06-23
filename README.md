@@ -16,5 +16,19 @@ Por supuesto, la incertidumbre sobre la naturaleza (viento, lluvia, temperatura,
 
 Normalmente el precio de la electricidad se explica mediante la producción eólica del pais y la demanda existente. La premisa en la que se basa este proyecto es que en cada mercado/pais influencian más o menos otras variables.
 
+###Datos
+Los datos que se van a tener encuenta y las unidades en las que se van a tratar son:
+
+|DATO|UNIDAD|ALIAS|
+|----|------|-----|
+|FECHA|horario en UTC|date|
+|Precio eléctrico|cent€/kWh|price|
+|Producción eólica|kW|wind|
+|Porducción fotovoltaica|kW|photo|
+|Demanda energética|kW|demand|
+|Temperatura|dK|temp|
+|Producción termosolar|kW|thermo|
+|Disponibilidad hidraúlica|kW|hydro|
+
 
 Data ceded by Meteologia S.A.
