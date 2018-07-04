@@ -11,7 +11,6 @@ The **scope of the project** is to provide a more complete and accurate way of p
 
 ## About the methodology ##
 XGBoost is short for "Extreme Gradient Boosting", where the term "Gradient Boosting" is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman. XGBoost is based on this original model. 
-https://xgboost.readthedocs.io/en/latest/model.html
 ![XGB](img/xgb.png)
 
 ### Data acquisition
@@ -82,7 +81,7 @@ The last phase in this project was trying to  communicate information clearly an
  
 #### Hardware and Resources
 
- - DELL Optiplex GX 7010 Intel Core i5-3470, 8GB de RAM, Disco SSD de 240GB**
+ - DELL Optiplex GX 7010 Intel Core i5-3470, 8GB de RAM, Disco SSD de 240GB
 
 ## How to run this analysis
 
