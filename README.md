@@ -20,7 +20,7 @@ The data set was provided by Meteologica S.A. and consists in 8 `csv` file conta
 |DATA|UNITS|ALIAS|
 |----|------|-----|
 |Date|set in UTC time zone|date|
-|Price electricity|cent???/kWh|price|
+|Price electricity|cent€/kWh|price|
 |Wind Power production|kW|wind|
 |Photovoltaic Power production|kW|photo|
 |Energy Demand|kW|demand|
