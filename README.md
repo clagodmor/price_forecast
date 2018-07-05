@@ -120,4 +120,3 @@ The last phase in this project was trying to  communicate information clearly an
 **Clara Godoy Morales**
 Analyst and programmer at Meteologica S.A.
  - https://www.linkedin.com/in/claragodoy/
- - [@clagodmor](https://twitter.com/clagodmor)
