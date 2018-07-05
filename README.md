@@ -88,6 +88,9 @@ The last phase in this project was trying to  communicate information clearly an
  - R `ROCR`: is a R package for visualization
  
  - `Pandas`: A high-performance, easy-to-use data structures and data analysis tools for Python
+ - `Altair`: Declarative Visualization in Python
+  
+ `> conda install -c conda-forge altair vega_datasets notebook vega`
  
 #### Hardware and Resources
 
