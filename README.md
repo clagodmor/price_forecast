@@ -11,6 +11,7 @@ The **scope of the project** is to provide a more complete and accurate way of p
 
 ## About the methodology ##
 XGBoost is short for "Extreme Gradient Boosting", where the term "Gradient Boosting" is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman. XGBoost is based on this original model. 
+
 ![XGB](img/xgb.png)
 
 ### Data acquisition
@@ -73,9 +74,18 @@ The last phase in this project was trying to  communicate information clearly an
 #### Main libraries
 
  - `xgboost`:
+ 
  `> pip install xgboost`
  
- - R `data.table`:  a R package that provides an enhanced version of `data.frame` , especially useful for working with large data sets (*datos.csv size:  3.6 gigabytes*) 
+  - `sklearn`:
+  
+ `> pip install sklearn`
+ 
+ - R `plyr`:  is a R set of tools for a common set of problems: you need to split up a big data structure into homogeneous pieces, apply a function to each piece and then combine all the results back together. 
+ 
+ - R `caTools`: Contains several basic utility functions including: moving (rolling, running) window statistic functions, read/write for GIF and ENVI binary files, fast calculation of AUC, LogitBoost classifier, base64 encoder/decoder, round-off-error-free sum and cumsum, etc
+ 
+ - R `ROCR`: is a R package for visualization
  
  - `Pandas`: A high-performance, easy-to-use data structures and data analysis tools for Python
  
@@ -85,10 +95,18 @@ The last phase in this project was trying to  communicate information clearly an
 
 ## How to run this analysis
 
-**Reading, transforming and feature engineering**
+**Reading and transforming**
 
     python reading.py
 
+**R analysis** 
+(set your own path at setwd("~/PycharmProjects/master-data-science"))
+
+    rstudio analysis.R 
+
+**Modelling and output** 
+
+    jupyter-notebook xgboost_jupyter.ipynb 
 
 
 ## About the author
