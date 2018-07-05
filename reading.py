@@ -78,7 +78,7 @@ df=df.merge(df6,left_on='date',right_on='date',how='inner')
 df=df.merge(df7,left_on='date',right_on='date',how='inner')
 df=df.merge(df8,left_on='date',right_on='date',how='inner')
 
-df.to_csv('data/TOTAL.csv',index=False,sep=';')
+df.to_csv('data/TOTAL.csv',index=False)
 def train_validate_test_split(df, train_percent=.6, validate_percent=.2, seed=None):
     np.random.seed(seed)
     perm = np.random.permutation(df.index)

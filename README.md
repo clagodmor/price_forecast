@@ -61,7 +61,7 @@ The last phase in this project was trying to  communicate information clearly an
 
 **Files**
 
- 1. [`plot.ipynb`](plot.ipynb): A vegalite plotting
+ 1. [`Plot.ipynb`](plot.ipynb): A vegalite plotting of the results.
  
 ## About the technology ##
 #### Programming languages and interpreters
@@ -107,7 +107,10 @@ The last phase in this project was trying to  communicate information clearly an
 **Modelling and output** 
 
     jupyter-notebook xgboost_jupyter.ipynb 
+    
+**Plotting results** 
 
+    jupyter-notebook Plot.ipynb 
 
 ## About the author
 
