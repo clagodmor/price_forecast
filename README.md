@@ -49,6 +49,7 @@ Working with categorical or factor variables in a big data set can be challengin
 This is the core activity of the data science project. In order to get insight from the data a Machine Learning algorithm was applied to the selected variables.
 
 **XGBoost visually explained**
+
 ![XGBoost visual expl](img/xgb_visu.png)
 
 **Files**:
@@ -88,6 +89,9 @@ The last phase in this project was trying to  communicate information clearly an
  - R `ROCR`: is a R package for visualization
  
  - `Pandas`: A high-performance, easy-to-use data structures and data analysis tools for Python
+ - `Seaborn` : Statistical data visualization in Python
+ 
+  `> pip install seaborn`
  - `Altair`: Declarative Visualization in Python
   
  `> conda install -c conda-forge altair vega_datasets notebook vega`
@@ -114,9 +118,22 @@ The last phase in this project was trying to  communicate information clearly an
 **Plotting results** 
 
     jupyter-notebook Plot.ipynb 
+    
+## Results
+Once the model is trained, the "test" data set is predicted, obtaining a dataframe composed by the predicted and
+the real data. Comparing both columns using a linear regression graph and calculating the determination coefficient
+R<sup>2</sup> we get a R<sup>2</sup> =0.9 which means the models fits quite well to reality, can be said that the model
+explains in a 90% the reality:
+
+![R2 coeff](img/coef_det.png)
+
+For a better visual comparison both values are represented in a date-time graph:
+
+![comparison real & predicted](img/comp.png)
 
 ## About the author
 
-**Clara Godoy Morales**
-Analyst and programmer at Meteologica S.A.
- - https://www.linkedin.com/in/claragodoy/
+**Clara Godoy**
+Analyst and Developer at [Maxam Int. Corp.](https://www.maxamcorp.com/)
+ - Linkedin: [@claragodoy](https://www.linkedin.com/in/claragodoy/)
+ - Twitter: [@clagodmor](https://twitter.com/clagodmor)
