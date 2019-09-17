@@ -7,7 +7,7 @@ Electricity price forecasting
 
 The main objective of this project is to create an electricity price forecasting through the use of unusual variables such as solar thermal or hydraulic production.
 
-The **scope of the project** is to provide a more complete and accurate way of predict electricity pricing. by applying data scientist knowledge acquired in KSchool Master in Data Science.
+The **scope of the project** is to provide a more complete and accurate way of predict electricity pricing by applying data scientist knowledge acquired in KSchool Master in Data Science.
 
 ## About the methodology ##
 XGBoost is short for "Extreme Gradient Boosting", where the term "Gradient Boosting" is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman. XGBoost is based on this original model. 
@@ -16,7 +16,7 @@ XGBoost is short for "Extreme Gradient Boosting", where the term "Gradient Boost
 
 ### Data acquisition
 
-The data set was provided by Meteologica S.A. and consists in 8 `csv` file containing date an production of different energy sources.
+The data set was provided by [Meteologica S.A.](http://www.meteologica.com/) and consists in 8 `csv` file containing date an production of different energy sources.
 
 |DATA|UNITS|ALIAS|
 |----|------|-----|
